@@ -1,0 +1,102 @@
+.block1 {
+    background-color: bisque;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+.block2 {
+    background-color: burlywood;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+.block3 {
+    background-color: indianred;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+.block4 {
+    background-color: darkkhaki;
+    display: flex;
+    flex-direction: column-reverse;
+    margin: 10px;
+}
+
+h4 {
+    background-color: greenyellow;
+    color: black;
+    font-size: 1.2em;
+    width: 150px;
+    font-family: Roboto Slab;
+}
+
+header {
+    font-family: Roboto;
+}
+
+.text {
+    font-family: Bitter;
+}
+
+.img {
+    align-self: center;
+    margin: 10px;
+}
+
+@media (min-width: 1200px) {
+
+    .col-lg-3 {
+        width: 25%;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    .col-md-4 {
+        width: 33.33%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-sm-6 {
+        width: 50%;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-sm-12 {
+        width: 100%;
+    }
+
+    .main {
+        display: flex;
+        flex-wrap: wrap;
+    }
+}
